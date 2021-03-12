@@ -7,3 +7,5 @@ Data has been downloaded from:<br>
 https://npgeo-corona-npgeo-de.hub.arcgis.com/<br>
 Then choose Robert-Koch-Institut and on the next page RKI COVID 19.<br>
 I've been downloading the full csv-file which is way too big to keep uploading here (180 MB as of February 14th, 2021)
+
+Interactive graphs generated with plotly have been added. Unfortunately they are too big to open on github. You'd need to download them to your harddrive and open from there. Sorry about that.
