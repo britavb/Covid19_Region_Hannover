@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19 in der Region Hannover und Deutschland gesamt</title>
+</head>
+<body style="margin: 2.5% 10% 2.5% 10%">
+<center>
+<h1>Inhaltsverzeichnis</h1>
+</center>
+<a href="inzidenz">Entwicklung der Inzidenzen in den letzten acht Wochen</a><p>
+<a href="#statisch">Statische Plots Covid-19 f&uumlr die Region Hannover</a>
+<ul>
+	<li><a href="#s1">Fall- und Todesfallzahlen gesamt</a></li>
+	<li><a href="#s2">Fall- und Todesfallzahlen in den letzten 8 Wochen</a></li>
+	<li><a href="#s3">Statistische Plots gesamt</a></li>
+</ul>
+<a href="#gerhan">Vergleich Covid-19 f&uuml;r Deutschland und die Region Hannover</a>
+<ul>
+	<li><a href="#gh1">Fall- und Todesfallzahlen gesamt</a></li>
+	<li><a href="#gh2">Fallzahlen und Inzidenzen seit Beginn des Lockdown "light"</a></li>
+	<li><a href="#gh3">Statistische Plots gesamt</a></li>
+</ul>
+<a href="#inter">Interaktive Plots Covid-19 f&uuml;r die Region Hannover</a>
+<p><hr><p>
+<center>
+<h1 id="inzidenz">Entwicklung der Inzidenzen in den letzten acht Wochen</h1>
+</center>
+<p>Hinweis: Die Inzidenzen wurden nicht vom RKI bereitgestellt, sondern aus den vom RKI übermittelten 
+tagesaktuellen Zahlen selbst errechnet. Dadurch kann es zu Abweichungen kommen, insbesondere wenn
+die bereitgestellten Zahlen im Nachhinein korrigiert wurden.</p>
+<img src="RKI_COVID19_incidence_last8weeks.png" border=0 width=100%>
+<p><hr><p>
+<center>
+<h1 id="statisch">Statische Plots Covid-19 f&uumlr die Region Hannover</h1>
+</center>
+<h2 id="s1">Fall- und Todesfallzahlen gesamt</h2>
+<img src="RKI_COVID19_all.png" border=0 width=100%>
+<h2 id="s2">Fall- und Todesfallzahlen in den letzten 8 Wochen</h2>
+<img src="RKI_COVID19_last8weeks.png" border=0 width=100%>
+<h2 id="s3">Statistische Plots gesamt</h2>
+<img src="RKI_COVID19_stats.png" border=0 width=100%>
+<p><hr><p>
+<center>
+<h1 id="gerhan">Vergleich Covid-19 f&uuml;r Deutschland und die Region Hannover</h1>
+</center>
+<h2 id="gh1">Fall- und Todesfallzahlen gesamt</h2>
+<img src="RKI_COVID19_GER_vs_HAJ_all.png" border=0 width=100%>
+<h2 id="gh2">Fallzahlen und Inzidenzen seit Beginn des Lockdown "light"</h2>
+<img src="RKI_COVID19_GER_vs_HAJ_since_20201102.png" border=0 width=100%>
+<h2 id="s3">Statistische Plots gesamt</h2>
+<img src="RKI_COVID19_GER_stats.png" border=0 width=100%>
+<p><hr><p>
+<center>
+<h1 id="inter">Interaktive Plots Covid-19 f&uuml;r die Region Hannover</h1>
+</center>
+<iframe src="RKI_COVID_19_cases_plotly.html" frameborder="0" width=800 height=400></iframe> 
+<hr>
+<iframe src="RKI_COVID_19_per100k_plotly.html" frameborder="0" width=800 height=500></iframe>
+<hr>
+<iframe src="RKI_COVID_19_statistics_plotly.html" frameborder="0" width=800 height=400></iframe>
+<hr>
+<iframe src="RKI_COVID_19_per_weekday_plotly.html" frameborder="0" width=800 height=500></iframe>
+</body>
+</frameset>
+</html>
